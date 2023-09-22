@@ -1,0 +1,85 @@
+.left{
+  height: 100vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+.left img{
+  margin-top: 5vh;
+}
+.right{
+  height: 100vh;
+  width: 85vw;
+}
+.rightstats{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.leftbtn1,.leftbtn2,.leftbtn3{
+  font-weight: 800;
+  margin-top: 2vh;
+  cursor: pointer;
+  display: flex;
+  gap: 0.5vw;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+.leftbtn1:hover,.leftbtn2:hover,.leftbtn3:hover{
+  color: blue;
+}
+.top{
+  font-size: 4vh;
+  margin-top: 5vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.leftstats{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.charts{
+  display: flex;
+  margin-top: 5vh;
+  gap: 2vw;
+  flex-direction: row;
+}
+.table .MuiDataGrid-root .MuiDataGrid-cell {
+  border: none;
+}
+.table .MuiDataGrid-root .MuiDataGrid-colCell {
+  border: none;
+}
+.MuiDataGrid-root .MuiDataGrid-row {
+  border-bottom: none;
+}
+.circle1,.circle2,.circle3,.circle4{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.stats{
+  margin-top: 10vh;
+  margin-left: 5vw;
+  display: flex;
+  gap: 10vw;
+  flex-direction: row;
+}
+.table{
+  width: 75vw;
+  margin-top: 1vh;
+  margin-left: 5vw;
+}
